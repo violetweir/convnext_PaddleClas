@@ -3,7 +3,7 @@ from __future__ import division
 from __future__ import print_function
 
 
-from convnext import ClasHead, _load_pretrained
+from .convnext import ClasHead, _load_pretrained
 import paddle 
 import paddle.fluid as fluid
 import paddle.nn.functional as F
