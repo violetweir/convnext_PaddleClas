@@ -178,8 +178,7 @@ class ConvBNLayer(nn.Layer):
             kernel_size=filter_size,
             stride=stride,
             padding=padding,
-            groups=groups,
-            bias_attr=False)
+            groups=groups)
 
         self.bn = nn.BatchNorm2D(
             ch_out,
